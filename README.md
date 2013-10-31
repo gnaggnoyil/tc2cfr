@@ -1,5 +1,7 @@
 **tc2cfr** is a project that provides an [Avisynth](http://www.avisynth.org) and [VapourSynth](http://www.vapoursynth.com/) plugin that can read a timecode file and convert a given video clip in to one with constant framerate by adding duplicate frames. It does the trick like what avi_tc_package does.
 
+The precompiled binary has two dlls, one(tc2cfr.dll) is the release version, and the other(tc2cfr_debug) is the debug version, with it's pdb file together.
+
 ### Avisynth Function References
 
 readtcv1(clip, string "timecode", int "fpsNum", int "fpsDen")
