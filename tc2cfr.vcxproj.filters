@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AVSFilter">
+      <UniqueIdentifier>{ec608c34-7f64-452d-b280-db5d8b8f6715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VSFilter">
+      <UniqueIdentifier>{ef9486e0-8888-4114-b7fc-74a746c5727c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backend">
+      <UniqueIdentifier>{80977ac1-50d1-490b-bab0-2cc89243fef4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VSHelper.h">
+      <Filter>VSFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="VapourSynth.h">
+      <Filter>VSFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Backend.h">
+      <Filter>Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="avisynth.h">
+      <Filter>AVSFilter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Backend.cpp">
+      <Filter>Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="VSFrontend.cpp">
+      <Filter>VSFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="AVSFrontend.cpp">
+      <Filter>AVSFilter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
