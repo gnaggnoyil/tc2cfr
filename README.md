@@ -3,17 +3,21 @@
 ## Avisynth Function References
 
 readtcv1(clip, string "timecode", int "fpsNum", int "fpsDen")
+
 this function reads a timecode v1 file and convert a given clip to a constant-framerate one.
-timecode: the timecode v1 file to read
-fpsNum: the output fps_numerator
-fpsDen: the output fps_denominator, default value is the same as the fps_denominator of input clip
+
+* timecode: the timecode v1 file to read
+* fpsNum: the output fps_numerator
+* fpsDen: the output fps_denominator, default value is the same as the fps_denominator of input clip
 
 ##VapourSynth Function References
 tc2cfr.readtcv1(clip, data timecode, int fpsNum[, int fpsDen])
+
 this function reads a timecode v1 file and convert a given clip to a constant-framerate one.
-timecode: the timecode v1 file to read
-fpsNum: the output fps_numerator
-fpsDen: the output fps_denominator, default value is the same as the fps_denominator of input clip
+
+* timecode: the timecode v1 file to read
+* fpsNum: the output fps_numerator
+* fpsDen: the output fps_denominator, default value is the same as the fps_denominator of input clip
 
 #How to compile
 Compiling this project is a piece of pie. This project contains a VS2012 solution and a VC++ project file, so you can just simply open the solution file with VS2012(or later versions) and then build this project. No other depended libraries is required.
