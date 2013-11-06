@@ -248,7 +248,7 @@ FrameMap_t **genFrameMap(const char *timecodeFilePath,int origFrameTot,int fpsNu
   delete frameMap;
 
   return ret;
-}
+}//genFrameMap
 
 int binsearch(FrameMap_t **arr,int len,int object){
   int st=0,en=len-1,mid=0;
