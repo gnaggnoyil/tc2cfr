@@ -9,8 +9,8 @@ readtcv1(clip, string "timecode", int "fpsNum", int "fpsDen")
 this function reads a timecode v1 file and convert a given clip to a constant-framerate one.
 
 * timecode: the timecode v1 file to read
-* fpsNum: the output fps_numerator
-* fpsDen: the output fps_denominator, default value is the same as the fps_denominator of input clip
+* fpsNum: the output fps_num
+* fpsDen: the output fps_den, default value is the same as the fps_den of input clip
 
 ### VapourSynth Function References
 tc2cfr.readtcv1(clip, data timecode, int fpsNum[, int fpsDen])
